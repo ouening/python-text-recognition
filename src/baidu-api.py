@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@author: 周文青
+@autho:ouening
 
 使用PyQt5调用百度API构建图片转文字的GUI程序
 """
@@ -845,9 +845,10 @@ class ScreenShot(QGraphicsView):
         self.fontNow = font
 
 ## 百度API参数
-APP_ID = '10468218'
-API_KEY = 'MEq2nudNONuFbdAGLVxY3GdV'
-SECRET_KEY = 'Bz2WPGa4IyYws0bN4l66dLvmmn5nfNzC'
+
+APP_ID = '9851066'  
+API_KEY = 'LUGBatgyRGoerR9FZbV4SQYk'  
+SECRET_KEY = 'fB2MNz1c2UHLTximFlC4laXPg7CVfyjV' 
 # 初始化文字识别
 aipOcr = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 options = {
